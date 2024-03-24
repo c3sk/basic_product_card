@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
@@ -7,12 +12,16 @@ body {
 
 .product-card {
   border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
 }
 
 .product-title {
   background-color: #f7f7f7;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* PRODUCT INFORMATION */
@@ -24,6 +33,9 @@ body {
 .shipping-info {
   text-transform: uppercase;
   color: #777;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .more-information:link,
@@ -40,20 +52,37 @@ body {
 
 .product-details-list {
   list-style-type: square;
+  margin-left: 20px;
 }
 
 /* BUTTON */
 
 .add-to-cart-button {
+  width: 100%;
   background-color: #000;
   border: none;
+  border-top: 4px solid black;
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 15px;
 }
 
 .add-to-cart-button:hover {
   color: #000;
   background-color: #fff;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.product-details-list li {
+  margin-bottom: 10px;
+}
+
+.product-details-title {
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
